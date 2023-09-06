@@ -1,4 +1,4 @@
-# GalaxyBot Source Code
+# Galaxy Utilities Source Code
 
 My bot's source code.
 
