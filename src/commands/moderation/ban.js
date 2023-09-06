@@ -33,10 +33,10 @@ module.exports = {
     }
 
     const targetUserRolePosition = targetUser.roles.highest.position; // Highest role of the traget user
-    const reequestUserRolePosition = interaction.member.roles.highest.position; // Highest role of the user running the cmd
+    const requestUserRolePosition = interaction.member.roles.highest.position; // Highest role of the user running the cmd
     const botRolePosition = interaction.guild.members.me.roles.highest.position; // Highest Role of the bot
 
-    if (targetUserRolePosition >= reequestUserRolePosition) {
+    if (targetUserRolePosition >= requestUserRolePosition) {
       await interaction.editReply(
         "You can't ban that member because they have the same/higher role than you!"
       );
