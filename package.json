@@ -1,5 +1,5 @@
 {
-  "name": "galaxybot-discord",
+  "name": "galaxy-utilities",
   "version": "0.0.1",
   "description": "A bot called GalaxyBot for Discord",
   "main": "src/index.js",
@@ -8,16 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/endlord15/galaxybot-discord.git"
+    "url": "git+https://github.com/endlord15/galaxy-utilities-discord-bot.git"
   },
   "author": "Endlord15",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/endlord15/galaxybot-discord/issues"
+    "url": "https://github.com/endlord15/galaxy-utilities-discord-bot/issues"
   },
-  "homepage": "https://github.com/endlord15/galaxybot-discord#readme",
+  "homepage": "https://github.com/endlord15/galaxy-utilities-discord-bot#readme",
   "dependencies": {
     "discord.js": "^14.13.0",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "mongoose": "^7.5.0",
+    "ms": "^2.1.3",
+    "pretty-ms": "^8.0.0"
   }
 }
